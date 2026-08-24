@@ -1,0 +1,37 @@
+# Runtime state and managed repositories
+/state/
+/repos/
+/worktrees/
+/.pr-autopilot.lock
+
+# Credentials and local configuration
+/config.json
+/.env
+/.env.*
+!/.env.example
+/.secrets/
+*.pem
+*.key
+
+# Runtime databases and logs
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.log
+
+# Python, Node, editors, and operating systems
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test and QA output
+/artifacts/
+/test-output/
