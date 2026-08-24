@@ -1,0 +1,8 @@
+{
+  "name": "pr-autopilot",
+  "label": "PR Autopilot",
+  "description": "Local controller state for the native PR Autopilot Desktop plugin.",
+  "icon": "GitPullRequest",
+  "version": "0.3.0",
+  "api": "plugin_api.py"
+}

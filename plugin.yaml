@@ -1,0 +1,8 @@
+name: pr-autopilot
+version: 0.3.0
+summary: "Desktop-lifetime, exact-head pull-request review autopilot."
+description: "A local Hermes Desktop control plane for deterministic Codex review, repair, verification, and guarded merge loops."
+author: AnikaWilliams
+kind: standalone
+platforms:
+  - windows
